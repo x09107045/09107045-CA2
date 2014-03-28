@@ -52,20 +52,16 @@ img {
 	padding: 0 0 14px 0;	
 }
 
-.band.navigation {
-	background: url(../images/stitch_hr.png) left top repeat-x,
-				url(../images/bg_dark.png) repeat left 2px,
-				#343434;	
+.navigation.bar {
+	background: #3366FF;	
 	padding: 0;
 	color: #e0e0e0; 
 }
 
 .band.footer {
-	background: url(../images/stitch_large.png) left top repeat-x,
-				url(../images/bg_dark.png) repeat left 2px,
-				#343434;
+	background: #3366FF;
 	padding: 49px 0 14px 0;			
-	color: #e0e0e0; 
+	color: #3366FF; 
 }
 
 .band.bottom {

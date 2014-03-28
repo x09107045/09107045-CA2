@@ -30,8 +30,8 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script src="main.js"></script>
-	<script src="menu.js"></script>
+	<script src="javascripts/main.js"></script>
+	<script src="javascripts/menu.js"></script>
 	
 
 </head>
@@ -72,31 +72,32 @@
 				<div class="eight columns">
 				<br />
 					<h3>A Simple Length Converter</h3>
-					<p>Try out the length converter for converting centimetres to inches and vice versa</p>
-					<form name="converter">
-						Cm: <input type="text" name="cm" onChsnge="javascript:cmConverter()"><br />
-						Inch: <input type="text" name="inch" onChange="javascript:inchConverter()"><br />
-						<input type="button" value="Convert!" />
-					</form>
+					<p>Try out the length converter for converting centimetres to inches</p>
+						Cm: <input type="text" input id="cm" name="cm" onClick="cmConverter()"><br />
+						Inch: <input type="text" input id="inch" name="inch" onClick="inchConverter()"><br />
+						<br />
+						<input type="submit" onClick="cmConverter() " value="Convert Length!" />
+					
 				</div>
 		
 				<div class="eight columns">
 				<br />
 					<h3>Convert Temperatures</h3>
-					<p>Try out the converter to convert temperature from Centigrade to Fahrenheit and vice versa</p>
+					<p>Try out the converter to convert temperature from Centigrade to Fahrenheit</p>
 					<p><b>Insert a number into one of the input fields below:</b></p>
-					<form>
-						<input id="c" name="c" onkeyup="convert('C')"> degrees Celsius<br>equals<br> 
-						<input id="f" name="f" onkeyup="convert('F')"> degrees Fahrenheit <br/>
-						<input type="button" value="Convert!" />
-					</form>
-						<p>Note that the <b>Math.round()</b> method is used, so that the result will be returned as an integer.</p>
+					Degrees Celsius<br> 
+						<input type="text" id="celsius"> 
+						<br />
+						equals<br>
+						Degrees Fahrenheit <br/>
+						<input type="text" id="fahrenheit" onChange="FahrenheitConverter()"> 
+						<br />
+						
+						<input type="submit" onClick="CelsiusConverter()" value="Convert Celsius!" />
+					
+						
 				</div>
-		<!--<div class="one-third column">
-			<h3>Converting is simple</h3>
-			<p></p>
-		</div>-->
-
+		
 			</div><!-- container -->
 		</div>
 	</div>
