@@ -1,10 +1,12 @@
 09107045-CA2
 ============
 
-Exam
+Exam - Aislng Roche
 
 28th March 2014 - ARIA Exam
 
-Git Details:
+Git Details:  https://github.com/x09107045/09107045-CA2
 
-Deployment Details: 
+Deployment Details: http://exam-3.apphb.com/
+
+Deployed to App Harbour, contains a README file
