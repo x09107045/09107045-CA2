@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>CA2 09107045</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="main.js"></script>
+	<script src="menu.js"></script>
+	
+
+</head>
+<body>
+	<div class="page">
+		<div class="band header">
+		
+		<div class="container main">
+			<div class="sixteen columns">
+			<h1 class="remove-bottom" style="margin-top: 40px">Exam - 09107045</h1>
+			<h5>Exam - Simple Converter </h5>
+			<hr />
+			</div> <!-- sixteen cols -->
+		</div> <!-- container -->
+	</div> <!-- header -->
+	
+	<div class="navigation bar">
+	<nav>
+		<nav  class="container primary">
+			<div class="sixteen columns">
+				<ul>
+					<li><a href="">Home</li>
+					<li><a href="">About</li>
+					<li><a href="">Contact</li>
+					<li><a href="">Shop</li>
+				</ul>
+			</div>
+		</nav> <!-- container -->
+	</nav>
+	</div> <!-- end band -->
+	
+	<div class="band chief">
+		
+		<div class="container">
+			
+			<div class="content">
+		
+				<div class="eight columns">
+				<br />
+					<h3>A Simple Length Converter</h3>
+					<p>Try out the length converter for converting centimetres to inches and vice versa</p>
+					<form name="converter">
+						Cm: <input type="text" name="cm" onChsnge="javascript:cmConverter()"><br />
+						Inch: <input type="text" name="inch" onChange="javascript:inchConverter()"><br />
+						<input type="button" value="Convert!" />
+					</form>
+				</div>
+		
+				<div class="eight columns">
+				<br />
+					<h3>Convert Temperatures</h3>
+					<p>Try out the converter to convert temperature from Centigrade to Fahrenheit and vice versa</p>
+					<p><b>Insert a number into one of the input fields below:</b></p>
+					<form>
+						<input id="c" name="c" onkeyup="convert('C')"> degrees Celsius<br>equals<br> 
+						<input id="f" name="f" onkeyup="convert('F')"> degrees Fahrenheit <br/>
+						<input type="button" value="Convert!" />
+					</form>
+						<p>Note that the <b>Math.round()</b> method is used, so that the result will be returned as an integer.</p>
+				</div>
+		<!--<div class="one-third column">
+			<h3>Converting is simple</h3>
+			<p></p>
+		</div>-->
+
+			</div><!-- container -->
+		</div>
+	</div>
+	
+	<div class="band footer">
+		<footer class="container main">
+		<div class="sixteen columns">
+			<h2>Aisling Roche - x09107045 - National College of Ireland</h2>
+		</div>
+	</div>
+	
+	
+</body>
+</html>
